@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - rest passed value to 98.
+ * reset_to_98 - sets the value pointed to by the passed pointer to 98.
  *
  * Return: Always 98.
  */
-int reset_to_98(int *p)
+void reset_to_98(int *p)
 {
 	*p = 98;
-	return *p;
+	return (0);
 }
 
 /**
