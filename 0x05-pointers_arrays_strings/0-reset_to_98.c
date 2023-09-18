@@ -1,15 +1,5 @@
 #include <stdio.h>
-
-/**
- * reset_to_98 - sets the value pointed to by the passed pointer to 98.
- *
- * Return: Always 98.
- */
-void reset_to_98(int *p)
-{
-	*p = 98;
-}
-
+#include "main.h"
 /**
  * main - check the code
  *
